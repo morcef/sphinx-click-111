@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sphinx-click-111"
+version = "0.1.0"
+description = ""
+authors = ["morcef <morcef_87@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1"
+typer = "^0.6"
+
+[tool.poetry.dev-dependencies]
+sphinx = "^5.0"
+sphinx-autodoc-typehints = "^1.19"
+sphinx-click = "^4.3"
+sphinx-rtd-dark-mode = "^1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
